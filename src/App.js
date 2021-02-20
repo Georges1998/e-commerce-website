@@ -1,21 +1,42 @@
+import React, { useState, useEffect } from "react";
+
 import HomePage from "./pages/home/HomePage";
 import ShopPage from "./pages/shop/ShopPage";
 import Header from "./components/header/Header";
+
+import { auth } from "./firebase/firebase-service";
 
 import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 
 import "./App.scss";
 
 function App() {
+  const [userState, setUserState] = useState({
+    currentUser: null,
+    fetched: false,
+  });
+
+  useEffect(() => {
+    const authSubscription = auth.onAuthStateChanged((user) => {
+      setUserState({ currentUser: user, fetched: true });
+    });
+
+    return authSubscription;
+  }, []);
+
   return (
     <div>
-      <Router>
-        <Header />
-        <Switch>
-          <Route exact path="/" component={HomePage} />
-          <Route path="/shop" component={ShopPage} />
-        </Switch>
-      </Router>
+      {userState.fetched ? (
+        <Router>
+          <Header currentUser={userState.currentUser} />
+          <Switch>
+            <Route exact path="/" component={HomePage} />
+            <Route path="/shop" component={ShopPage} />
+          </Switch>
+        </Router>
+      ) : (
+        <div></div>
+      )}
     </div>
   );
 }

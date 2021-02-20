@@ -6,8 +6,6 @@ import SHOP_DATA from './data-shop.js';
 const ShopPage = () => {
     const [shopData,] = useState(SHOP_DATA);
 
-    shopData.map((e) => console.log(e));
-
     return (
         <div>
             {shopData.map(({ id, ...other }) => (

@@ -1,14 +1,14 @@
 .header {
   height: 70px;
   width: 100%;
+  background-color: aquamarine;
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
 
   &__logo-container {
-    height: 100%;
-    width: 70px;
-    padding: 25px;
+    padding: 20px;
+    align-self: center;
   }
 
   &__options {
