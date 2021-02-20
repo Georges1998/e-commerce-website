@@ -14,10 +14,10 @@ const Header = () => (
         <div className='header__options'>
             <Link className='header__options__option' to='/shop'>
                 SHOP
-                </Link>
+            </Link>
             <Link className='header__options__option' to='/shop'>
                 CONTACT
-                </Link>
+            </Link>
         </div>
     </div >
 );

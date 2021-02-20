@@ -1,0 +1,29 @@
+.custom-button {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  margin: 0 0.3em;
+  border: radius 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-weight: 300;
+  transition: all 0.2s;
+  outline: none;
+
+  &:hover {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+@media all and (max-width: 30em) {
+  .custom-button {
+    display: block;
+    margin: 0.4em auto;
+  }
+}
