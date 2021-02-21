@@ -1,0 +1,19 @@
+.sign-in {
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+
+  input {
+    box-sizing: border-box;
+    background: none;
+    color: black;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid black;
+    margin: 25px 0;
+    outline: none;
+  }
+}

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 
 import HomePage from "./pages/home/HomePage";
 import ShopPage from "./pages/shop/ShopPage";
+import AuthenticationPage from "./pages/authentication/AuthenticationPage";
 import Header from "./components/header/Header";
 
 import { auth } from "./firebase/firebase-service";
@@ -32,6 +33,7 @@ function App() {
           <Switch>
             <Route exact path="/" component={HomePage} />
             <Route path="/shop" component={ShopPage} />
+            <Route path="/login" component={AuthenticationPage} />
           </Switch>
         </Router>
       ) : (
