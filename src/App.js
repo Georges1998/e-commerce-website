@@ -5,7 +5,7 @@ import ShopPage from "./pages/shop/ShopPage";
 import AuthenticationPage from "./pages/authentication/AuthenticationPage";
 import Header from "./components/header/Header";
 
-import { auth } from "./firebase/firebase-service";
+import { auth, createUserProfileDoc } from "./firebase/firebase-service";
 
 import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 
@@ -17,9 +17,10 @@ function App() {
     fetched: false,
   });
 
-  useEffect(() => {
-    const authSubscription = auth.onAuthStateChanged((user) => {
+  useEffect(async() => {
+    const authSubscription = auth.onAuthStateChanged(async (user) => {
       setUserState({ currentUser: user, fetched: true });
+      await createUserProfileDoc(user);
     });
 
     return authSubscription;

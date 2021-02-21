@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import CustomButton from '../custom-button/CustomButton'
-import { signInWithGoogle } from '../../firebase/firebase-service';
+import { auth, signInWithGoogle } from '../../firebase/firebase-service';
 import CustomInput from '../custom-input/CustomInput'
 
 import './sign-in.scss'
@@ -13,11 +13,16 @@ const SingIn = () => {
         setLogin({ ...login, [name]: value })
     }
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        setLogin({ email: '', password: '' })
+        try {
+            await auth.signInWithEmailAndPassword(login.email, login.password)
+            setLogin({ email: '', password: '' })
+        } catch (error) {
+            console.error(error)
+        }
     }
-    
+
     return (
         <div className="sign-in">
             <h2>I already have an account</h2>

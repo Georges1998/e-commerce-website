@@ -9,13 +9,13 @@ const CustomInput = ({ handleChange, label, ...other }) => (
         {
             label ?
                 (
-                    <label className={`${other.value.length} ? 'shrink': '' } custom-input__label`}>
+                    <label className={other.value.length > 0 ? 'shrink custom-input__label' : 'custom-input__label'}>
                         {label}
                     </label>)
                 :
                 null
         }
-    </div>
+    </div >
 )
 
 export default CustomInput;

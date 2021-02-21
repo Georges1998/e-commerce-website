@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import CustomInput from '../custom-input/CustomInput'
 import CustomButton from '../custom-button/CustomButton'
+import { auth, createUserProfileDoc } from '../../firebase/firebase-service';
 
 import './sign-up.scss';
 
@@ -12,9 +13,25 @@ const SignUp = () => {
         setSignUp({ ...signUp, [name]: value });
     }
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        setSignUp({ displayName: '', email: '', password: '', confirmPassword: '' })
+        if (signUp.password !== signUp.confirmPassword) {
+            alert('Passwords do not match');
+            return;
+        }
+
+        try {
+            const { user } = await auth.createUserWithEmailAndPassword(
+                signUp.email,
+                signUp.password
+            );
+
+            await createUserProfileDoc(user, signUp.displayName);
+            setSignUp({ displayName: '', email: '', password: '', confirmPassword: '' });
+        }
+        catch (error) {
+            console.log(error)
+        }
     }
 
     return (
@@ -23,8 +40,8 @@ const SignUp = () => {
             <form onSubmit={handleSubmit}>
                 <CustomInput onChange={handleChange} type="text" name="displayName" value={signUp.displayName} label="Display Name" required />
                 <CustomInput onChange={handleChange} name="email" value={signUp.email} label="Email" required />
-                <CustomInput onChange={handleChange} name="password" value={signUp.password} label="Password" required />
-                <CustomInput onChange={handleChange} name="password" value={signUp.confirmPassword} label="Confirm Password" required />
+                <CustomInput onChange={handleChange} name="password" type="password" value={signUp.password} label="Password" required />
+                <CustomInput onChange={handleChange} name="confirmPassword" type="password" value={signUp.confirmPassword} label="Confirm Password" required />
                 <CustomButton type="submit">Sign up</CustomButton>
             </form>
         </div>
