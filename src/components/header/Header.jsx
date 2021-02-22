@@ -3,7 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux'
 
-import { ReactComponent as Logo } from '../../assets/crown.svg';
+import { ReactComponent as Logo } from '../../assets/shoe.svg';
 import { auth } from '../../firebase/firebase-service';
 
 import './header.scss';
@@ -12,7 +12,10 @@ const Header = ({ currentUser, ...props }) => {
     return (
         <div className='header'>
             <Link className='header__logo-container' to='/'>
-                <Logo className='header__logo' />
+                <div className='header__logo'>
+                    <h1>SHOE LA LA</h1>
+                    <Logo className='logo'/>
+                </div>
             </Link>
             <div className='header__options'>
                 <Link className='header__options__option' to='/shop'>
