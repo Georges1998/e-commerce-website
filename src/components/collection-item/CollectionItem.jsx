@@ -21,7 +21,7 @@ const CollectionItem = ({ item, addItem }) => {
                 <span className='collection-item__collection-footer__price'>{price}</span>
             </div>
             <CustomButton onClick={() => addItem(item)} className='collection-item__customButton'>
-                Go to Checkout
+                Add to Cart
             </CustomButton>
         </div>)
 };
