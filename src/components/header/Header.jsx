@@ -13,8 +13,9 @@ const Header = ({ currentUser, ...props }) => {
         <div className='header'>
             <Link className='header__logo-container' to='/'>
                 <div className='header__logo'>
+                    <Logo className='logo logo1' />
                     <h1>SHOE LA LA</h1>
-                    <Logo className='logo'/>
+                    <Logo className='logo' />
                 </div>
             </Link>
             <div className='header__options'>
