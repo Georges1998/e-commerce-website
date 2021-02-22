@@ -12,6 +12,17 @@
     background-position: center;
     margin-bottom: 5px;
   }
+  &__customButton {
+    width: 50%;
+    opacity: 0.5;
+    position: relative;
+    bottom: 90px;
+    transition: all 0.5s ease;
+    &:hover {
+      cursor: pointer;
+      opacity: 0.8;
+    }
+  }
 
   &__collection-footer {
     width: 100%;
