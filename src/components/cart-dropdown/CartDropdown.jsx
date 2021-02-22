@@ -1,6 +1,8 @@
 import React from 'react'
 import { connect } from 'react-redux';
 
+import { Link } from 'react-router-dom';
+
 import CustomButton from './../custom-button/CustomButton'
 import CartItem from '../cart-item/CartItem';
 
@@ -12,7 +14,9 @@ const CartDropdown = ({ cartItems }) => (
                 <CartItem key={cartItem.id} item={cartItem} />
             ))}
         </div>
-        <CustomButton>Go to Checkout</CustomButton>
+        <Link className='header__options__option' to='/checkout'>
+            <CustomButton>Go to Checkout</CustomButton>
+        </Link>
     </div>
 )
 

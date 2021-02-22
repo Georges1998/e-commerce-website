@@ -6,12 +6,13 @@
   justify-content: space-between;
   margin-bottom: 25px;
   padding: 20px;
+  color: white;
 
   &__logo-container {
     justify-content: space-between;
 
     align-self: center;
-    color: white;
+    color: #FFFFF5;
     font-family: "customfont", "Helvet";
   }
 
@@ -42,6 +43,7 @@
     justify-content: flex-end;
 
     &__option {
+      color: #FFFFF5;
       padding: 20px 25px;
       &:hover {
         cursor: pointer;

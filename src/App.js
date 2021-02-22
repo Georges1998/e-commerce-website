@@ -16,6 +16,7 @@ import { auth, createUserProfileDoc } from "./firebase/firebase-service";
 import AuthenticationPage from "./pages/authentication/AuthenticationPage";
 import HomePage from "./pages/home/HomePage";
 import ShopPage from "./pages/shop/ShopPage";
+import CheckoutPage from "./pages/checkout/CheckoutPage";
 import { setCurrentUser } from "./redux/user/user-actions";
 import { connect } from "react-redux";
 
@@ -40,6 +41,7 @@ function App({ setCurrentUser, currentUser }) {
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route path="/shop" component={ShopPage} />
+          <Route path="/checkout" component={CheckoutPage} />
           <Route exact path="/login">
             {currentUser ? <Redirect to="/" /> : <AuthenticationPage />}
           </Route>
