@@ -15,7 +15,7 @@ const CheckoutPage = ({ cartItems }) => {
     return (
         <div className='checkout-page'>
             <div className='checkout-page__header'>
-                <div className='header-block'>
+                <div className='checkout-page__header-block'>
                     <span>Product</span>
                 </div>
                 <div className='checkout-page__block'>
