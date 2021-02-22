@@ -17,7 +17,7 @@ import AuthenticationPage from "./pages/authentication/AuthenticationPage";
 import HomePage from "./pages/home/HomePage";
 import ShopPage from "./pages/shop/ShopPage";
 import CheckoutPage from "./pages/checkout/CheckoutPage";
-import CollectionPage from "./pages/collections/CollectionPage";
+import CategoryPage from "./pages/category/CategoryPage";
 import { setCurrentUser } from "./redux/user/user-actions";
 import { connect } from "react-redux";
 
@@ -42,7 +42,7 @@ function App({ setCurrentUser, currentUser }) {
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route exact path="/shop" component={ShopPage} />
-          <Route path="/shop/:category" component={CollectionPage} />
+          <Route path="/shop/:category" component={CategoryPage} />
           <Route path="/checkout" component={CheckoutPage} />
           <Route exact path="/login">
             {currentUser ? <Redirect to="/" /> : <AuthenticationPage />}
