@@ -30,7 +30,7 @@ const SignUp = () => {
             setSignUp({ displayName: '', email: '', password: '', confirmPassword: '' });
         }
         catch (error) {
-            console.log(error)
+            alert(error)
         }
     }
 

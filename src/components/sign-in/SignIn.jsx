@@ -19,7 +19,7 @@ const SingIn = () => {
             await auth.signInWithEmailAndPassword(login.email, login.password)
             setLogin({ email: '', password: '' })
         } catch (error) {
-            console.error(error)
+            alert(error)
         }
     }
 
