@@ -9,19 +9,22 @@ const SHOP_DATA = [
       {
         id: 1,
         name: "Happy PC",
-        imageUrl: "https://medias.spotern.com/spots/w640/155/155396-1533034516.jpg",
+        imageUrl:
+          "https://medias.spotern.com/spots/w640/155/155396-1533034516.jpg",
         price: 25,
       },
       {
         id: 2,
         name: "Judah and PC",
-        imageUrl: "https://ca-times.brightspotcdn.com/dims4/default/6782dd1/2147483647/strip/true/crop/3840x2160+0+0/resize/840x473!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F76%2F7a%2Fa5541d0f4b53b7a44d06c0bafc80%2Fbojack-horseman-season-6-the-face-of-depression-1589359-00-22-26-08-32312.jpg",
+        imageUrl:
+          "https://ca-times.brightspotcdn.com/dims4/default/6782dd1/2147483647/strip/true/crop/3840x2160+0+0/resize/840x473!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F76%2F7a%2Fa5541d0f4b53b7a44d06c0bafc80%2Fbojack-horseman-season-6-the-face-of-depression-1589359-00-22-26-08-32312.jpg",
         price: 18,
       },
       {
         id: 3,
         name: "PC and Ruth",
-        imageUrl: "https://pyxis.nymag.com/v1/imgs/526/536/aefc83097a9c5b56b9addec99f9bda3873-bojack-horseman-06.rsocial.w1200.jpg",
+        imageUrl:
+          "https://pyxis.nymag.com/v1/imgs/526/536/aefc83097a9c5b56b9addec99f9bda3873-bojack-horseman-06.rsocial.w1200.jpg",
         price: 35,
       },
       {
@@ -33,19 +36,22 @@ const SHOP_DATA = [
       {
         id: 5,
         name: "Dreamy PC",
-        imageUrl: "https://nofilmschool.com/sites/default/files/styles/facebook/public/bj209_166_1.jpeg?itok=w9Nlm0pu",
+        imageUrl:
+          "https://nofilmschool.com/sites/default/files/styles/facebook/public/bj209_166_1.jpeg?itok=w9Nlm0pu",
         price: 18,
       },
       {
         id: 6,
         name: "100 PCs",
-        imageUrl: "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/xyzwvtikagyopanbqxlj.png",
+        imageUrl:
+          "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/xyzwvtikagyopanbqxlj.png",
         price: 14,
       },
       {
         id: 7,
         name: "PC's Mom",
-        imageUrl: "https://pyxis.nymag.com/v1/imgs/23a/bdd/ded582984ebd85afbe370da54bc50365f3-bojack-horseman-505.rsocial.w1200.jpg",
+        imageUrl:
+          "https://pyxis.nymag.com/v1/imgs/23a/bdd/ded582984ebd85afbe370da54bc50365f3-bojack-horseman-505.rsocial.w1200.jpg",
         price: 14,
       },
       {
@@ -80,7 +86,8 @@ const SHOP_DATA = [
       {
         id: 12,
         name: "Person of the Year",
-        imageUrl: "https://static2.srcdn.com/wordpress/wp-content/uploads/2019/10/BoJack-Horseman-Season-6-Todd.jpg?q=50&fit=crop&w=740&h=370",
+        imageUrl:
+          "https://static2.srcdn.com/wordpress/wp-content/uploads/2019/10/BoJack-Horseman-Season-6-Todd.jpg?q=50&fit=crop&w=740&h=370",
         price: 110,
       },
       {
@@ -93,7 +100,8 @@ const SHOP_DATA = [
       {
         id: 14,
         name: "Todd",
-        imageUrl: "https://static.wikia.nocookie.net/bojackhorseman/images/e/e8/Screenshot_%28955%29.png/revision/latest/top-crop/width/300/height/300?cb=20170208225426",
+        imageUrl:
+          "https://static.wikia.nocookie.net/bojackhorseman/images/e/e8/Screenshot_%28955%29.png/revision/latest/top-crop/width/300/height/300?cb=20170208225426",
         price: 160,
       },
       {
@@ -105,13 +113,15 @@ const SHOP_DATA = [
       {
         id: 16,
         name: "Todd and Bojack",
-        imageUrl: "https://i.pinimg.com/originals/0d/de/37/0dde37114652e2cf5c141d7e5bddc328.jpg",
+        imageUrl:
+          "https://i.pinimg.com/originals/0d/de/37/0dde37114652e2cf5c141d7e5bddc328.jpg",
         price: 190,
       },
       {
         id: 17,
         name: "Todd and his Triangle",
-        imageUrl: "https://dotandline.net/wp-content/uploads/2017/09/1_m7L7nQlrMixpXuAbWFwYZA.jpeg",
+        imageUrl:
+          "https://dotandline.net/wp-content/uploads/2017/09/1_m7L7nQlrMixpXuAbWFwYZA.jpeg",
         price: 200,
       },
     ],
@@ -126,19 +136,22 @@ const SHOP_DATA = [
       {
         id: 18,
         name: "Black Jean Shearling",
-        imageUrl: "https://dotandline.net/wp-content/uploads/2020/03/diane-nguyen-1210x642.jpg",
+        imageUrl:
+          "https://dotandline.net/wp-content/uploads/2020/03/diane-nguyen-1210x642.jpg",
         price: 125,
       },
       {
         id: 19,
         name: "Blue Jean Jacket",
-        imageUrl: "https://variety.com/wp-content/uploads/2020/06/bojack.jpg?w=681&h=383&crop=1",
+        imageUrl:
+          "https://variety.com/wp-content/uploads/2020/06/bojack.jpg?w=681&h=383&crop=1",
         price: 90,
       },
       {
         id: 20,
         name: "Grey Jean Jacket",
-        imageUrl: "https://cdn.jwplayer.com/v2/media/vnRqf7o2/poster.jpg?width=640",
+        imageUrl:
+          "https://cdn.jwplayer.com/v2/media/vnRqf7o2/poster.jpg?width=640",
         price: 90,
       },
       {
@@ -156,7 +169,8 @@ const SHOP_DATA = [
       {
         id: 222,
         name: "Tan Trench",
-        imageUrl: "https://64.media.tumblr.com/327f3e4f61a4754fdda15d1c3b235932/tumblr_p12e1pyOMB1ww403yo1_1280.png",
+        imageUrl:
+          "https://64.media.tumblr.com/327f3e4f61a4754fdda15d1c3b235932/tumblr_p12e1pyOMB1ww403yo1_1280.png",
         price: 185,
       },
       {
@@ -168,7 +182,8 @@ const SHOP_DATA = [
       {
         id: 245,
         name: "Tan Trench",
-        imageUrl: "https://64.media.tumblr.com/327f3e4f61a4754fdda15d1c3b235932/tumblr_p12e1pyOMB1ww403yo1_1280.png",
+        imageUrl:
+          "https://64.media.tumblr.com/327f3e4f61a4754fdda15d1c3b235932/tumblr_p12e1pyOMB1ww403yo1_1280.png",
         price: 185,
       },
     ],
@@ -182,45 +197,58 @@ const SHOP_DATA = [
     items: [
       {
         id: 23,
-        name: "Blue Tanktop",
-        imageUrl: "https://i.ibb.co/7CQVJNm/blue-tank.png",
+        name: "Season 1 Bojack",
+        imageUrl: "https://scotscoop.com/wp-content/uploads/2020/04/bojack.jpg",
         price: 25,
       },
       {
         id: 24,
-        name: "Floral Blouse",
-        imageUrl: "https://i.ibb.co/4W2DGKm/floral-blouse.png",
+        name: "Gray Hair Bojack",
+        imageUrl:
+          "https://static.highsnobiety.com/thumbor/tdUeFdQZ-PMt1Ty9JfCGtWDLMhQ=/1200x720/static.highsnobiety.com/wp-content/uploads/2020/01/31122103/bojack-horseman-finale-twitter-reactions-00.jpg",
         price: 20,
       },
       {
         id: 25,
-        name: "Floral Dress",
-        imageUrl: "https://i.ibb.co/KV18Ysr/floral-skirt.png",
+        name: "Philbert Bojack",
+        imageUrl:
+          "https://www.indiewire.com/wp-content/uploads/2018/09/BoJack_Horseman_S05E01_3m37s5212f1.jpg",
         price: 80,
       },
       {
         id: 26,
-        name: "Red Dots Dress",
-        imageUrl: "https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png",
+        name: "Sarah lynn",
+        imageUrl:
+          "https://www.gannett-cdn.com/-mm-/82c3f6063a606c86ef1574015ba5567f5ba03b12/c=10-0-4477-2524/local/-/media/2016/07/20/USATODAY/USATODAY/636046197709872604-BoJack-Horseman-S03E11-21m39s2598f.JPG",
         price: 80,
       },
       {
         id: 27,
-        name: "Striped Sweater",
-        imageUrl: "https://i.ibb.co/KmSkMbH/striped-sweater.png",
+        name: "Rooftop",
+        imageUrl:
+          "https://tvline.com/wp-content/uploads/2020/01/bojack-horseman-season-6-episode-16-series-finale.png?w=620",
         price: 45,
       },
       {
         id: 28,
-        name: "Yellow Track Suit",
-        imageUrl: "https://i.ibb.co/v1cvwNf/yellow-track-suit.png",
+        name: "Professor Horseman",
+        imageUrl:
+          "https://i.guim.co.uk/img/media/f41465fa8789c86ca5acf4a0f48e8e236f298f11/60_0_1799_1080/master/1799.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=6879b498f5b65641d03605cc333ea33a",
         price: 135,
       },
       {
         id: 29,
-        name: "White Blouse",
-        imageUrl: "https://i.ibb.co/qBcrsJg/white-vest.png",
+        name: "Funeral",
+        imageUrl:
+          "https://www.rollingstone.com/wp-content/uploads/2018/09/bojack-horseman-spoilers.jpg",
         price: 20,
+      },
+      {
+        id: 129,
+        name: "Nice Bojack",
+        imageUrl:
+          "https://www.indiewire.com/wp-content/uploads/2020/01/Screen-Shot-2020-01-15-at-8.51.52-AM.png?w=780",
+        price: 120,
       },
     ],
   },
@@ -233,38 +261,57 @@ const SHOP_DATA = [
     items: [
       {
         id: 30,
-        name: "Camo Down Vest",
-        imageUrl: "https://i.ibb.co/xJS0T3Y/camo-vest.png",
+        name: "Senator Mr.B",
+        imageUrl:
+          "https://cdn.flickeringmyth.com/wp-content/uploads/2017/09/bojack-season-4.jpg",
         price: 325,
       },
       {
         id: 31,
-        name: "Floral T-shirt",
-        imageUrl: "https://i.ibb.co/qMQ75QZ/floral-shirt.png",
+        name: "Sad Dog",
+        imageUrl:
+          "https://am21.mediaite.com/tms/cnt/uploads/2019/07/How-BoJack-Horsemans-Mr.-Peanutbetter-Exposes-the-Problem-with-Nice-Guys.jpg",
         price: 20,
       },
       {
         id: 32,
-        name: "Black & White Longsleeve",
-        imageUrl: "https://i.ibb.co/55z32tw/long-sleeve.png",
+        name: "Doggie Doggie What Now?",
+        imageUrl:
+          "https://www.indiewire.com/wp-content/uploads/2017/09/bj212_184.jpeg",
         price: 25,
       },
       {
         id: 33,
-        name: "Pink T-shirt",
-        imageUrl: "https://i.ibb.co/RvwnBL8/pink-shirt.png",
+        name: "Diane and Mr",
+        imageUrl:
+          "https://dotandline.net/wp-content/uploads/2017/09/1_TfEEDuf8Ivky-pec7cmL1g.jpeg",
         price: 25,
       },
       {
         id: 34,
         name: "Jean Long Sleeve",
-        imageUrl: "https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png",
+        imageUrl:
+          "https://c4.wallpaperflare.com/wallpaper/177/519/617/tv-show-bojack-horseman-mr-peanutbutter-bojack-horseman-princess-carolyn-wallpaper-preview.jpg",
         price: 40,
       },
       {
         id: 35,
         name: "Burgundy T-shirt",
-        imageUrl: "https://i.ibb.co/mh3VM1f/polka-dot-shirt.png",
+        imageUrl:
+          "https://pictures.betaseries.com/banners/episodes/282254/5689236.jpg",
+        price: 25,
+      },
+      {
+        id: 35,
+        name: "Burgundy T-shirt",
+        imageUrl: "https://images3.alphacoders.com/106/1064490.jpg",
+        price: 25,
+      },
+      {
+        id: 135,
+        name: "Burgundy T-shirt",
+        imageUrl:
+          "https://static.wikia.nocookie.net/bojackhorseman/images/2/2b/LetsFindOut.png/revision/latest?cb=20150718074044",
         price: 25,
       },
     ],
