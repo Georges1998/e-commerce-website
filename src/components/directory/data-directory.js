@@ -9,7 +9,7 @@ const DIRECTORY_DATA = [
   },
   {
     title: "Todd",
-    imageUrl: "https://cdn1.jigidi.com/thumbs/FAVSPHS7/l",
+    imageUrl: "https://cdn3.whatculture.com/images/2018/10/3ce03429f979c815-600x338.jpg",
     id: 2,
     linkUrl: "Todd",
     size: "large",
