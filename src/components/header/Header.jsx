@@ -24,9 +24,9 @@ const Header = ({ currentUser, hidden, ...props }) => {
                 <Link className='header__options__option' to='/shop'>
                     SHOP
             </Link>
-                <Link className='header__options__option' to='/shop'>
+                <a className='header__options__option' href='https://www.linkedin.com/in/george-kandalaft-0092/' target="_blank">
                     CONTACT
-            </Link>
+            </a>
                 {
                     currentUser ?
                         <div className='header__options__option' onClick={() => auth.signOut()}>SIGN OUT</div>
