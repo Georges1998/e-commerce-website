@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 
-import DIRECTORY_DATA from './data-shop';
+import DIRECTORY_DATA from './../shop/data-shop';
 
 import CollectionItem from '../../components/collection-item/CollectionItem';
 
@@ -11,18 +11,15 @@ const CategoryPage = ({ match }) => {
     const pageType = match.params.category;
     const [directoryData,] = useState(DIRECTORY_DATA);
 
-    const x = directoryData.filter(item => item.routeName === pageType);
-    const product = x.map(({ items }) => {
-        return items
-    });
+    const product = directoryData.find(item => item.routeName === pageType);
 
     return (
         <div className='category-page'>
             <h1 className='category-page__title'>{pageType.toUpperCase()}</h1>
             <div className='category-page__preview'>
                 {
-                    product[0].map(({ id, ...item }) => (
-                        <CollectionItem key={id} item={item} />))
+                    product.items.map((item) => (
+                        <CollectionItem key={item.id} item={item} />))
                 }
             </div>
         </div>

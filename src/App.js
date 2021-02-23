@@ -33,7 +33,7 @@ function App({ setCurrentUser, currentUser }) {
       setCurrentUser(user);
     });
     return authSubscription;
-  }, [createUserProfileDoc]);
+  }, [auth]);
 
   return (
     <div>
