@@ -302,7 +302,7 @@ const SHOP_DATA = [
         price: 25,
       },
       {
-        id: 35,
+        id: 345,
         name: "Burgundy T-shirt",
         imageUrl: "https://images3.alphacoders.com/106/1064490.jpg",
         price: 25,
