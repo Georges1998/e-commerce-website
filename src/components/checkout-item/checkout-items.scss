@@ -25,16 +25,27 @@
   }
 
   &__price {
-    position:relative;
+    position: relative;
     right: 35px;
   }
   &__name {
-    position:relative;
+    position: relative;
     left: 35px;
   }
 
   &__remove-button {
     padding-left: 12px;
     cursor: pointer;
+  }
+}
+@media screen and (max-width: 692px) {
+  .checkout-item__image {
+    display: none;
+  }
+  .checkout-item {
+    &__name {
+      position: relative;
+      left: 0;
+    }
   }
 }

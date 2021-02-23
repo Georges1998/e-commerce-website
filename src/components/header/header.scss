@@ -25,13 +25,13 @@
       margin: 0;
       align-self: flex-end;
     }
-    .logo {
+    .logoRight {
       align-self: flex-start;
       position: relative;
       margin-left: 10px;
       width: 40px;
     }
-    .logo1 {
+    .logoLeft {
       transform: rotateY(180deg);
       margin-right: 10px;
     }
@@ -46,10 +46,23 @@
 
     &__option {
       color: $base-color;
-      padding: 20px 25px;
+      padding: 25px 5%;
       &:hover {
         cursor: pointer;
       }
+    }
+  }
+}
+@media screen and (max-width: 692px) {
+  .header {
+    font-size: 12px;
+  }
+  .header__logo-container {
+    h1 {
+      font-size: 12px;
+    }
+    .logoRight {
+      width: 20px;
     }
   }
 }

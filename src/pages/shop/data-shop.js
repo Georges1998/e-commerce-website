@@ -73,7 +73,7 @@ const SHOP_DATA = [
         id: 10,
         name: "All About that Ace App",
         imageUrl:
-          "https://static.wikia.nocookie.net/bojackhorseman/images/7/7a/Screen_Shot_2019-02-26_at_6.10.21_PM.png/revision/latest?cb=20190227001757",
+          "https://www.indiewire.com/wp-content/uploads/2018/09/BoJack_Horseman_S05E05_18m47s27043f.jpg",
         price: 220,
       },
       {
@@ -94,14 +94,14 @@ const SHOP_DATA = [
         id: 13,
         name: "Todd Show",
         imageUrl:
-          "https://static.wikia.nocookie.net/bojackhorseman/images/a/a5/BoJack4x03.png/revision/latest?cb=20170911063050",
+          "https://carboncostume.com/wordpress/wp-content/uploads/2014/09/toddchavez.jpg",
         price: 160,
       },
       {
         id: 14,
         name: "Todd",
         imageUrl:
-          "https://static.wikia.nocookie.net/bojackhorseman/images/e/e8/Screenshot_%28955%29.png/revision/latest/top-crop/width/300/height/300?cb=20170208225426",
+          "https://pbs.twimg.com/media/CLmBSndWEAAJFNf.jpg",
         price: 160,
       },
       {
@@ -289,14 +289,14 @@ const SHOP_DATA = [
       },
       {
         id: 34,
-        name: "Jean Long Sleeve",
+        name: "Dinner",
         imageUrl:
           "https://c4.wallpaperflare.com/wallpaper/177/519/617/tv-show-bojack-horseman-mr-peanutbutter-bojack-horseman-princess-carolyn-wallpaper-preview.jpg",
         price: 40,
       },
       {
         id: 35,
-        name: "Burgundy T-shirt",
+        name: "Skiing",
         imageUrl:
           "https://pictures.betaseries.com/banners/episodes/282254/5689236.jpg",
         price: 25,
@@ -309,9 +309,9 @@ const SHOP_DATA = [
       },
       {
         id: 135,
-        name: "Burgundy T-shirt",
+        name: "Hollywoo Emmy's",
         imageUrl:
-          "https://static.wikia.nocookie.net/bojackhorseman/images/2/2b/LetsFindOut.png/revision/latest?cb=20150718074044",
+          "https://pyxis.nymag.com/v1/imgs/4e7/d04/272d91377ec54301f73325a2573090faa4-21-bojack-10.rsquare.w700.jpg",
         price: 25,
       },
     ],
