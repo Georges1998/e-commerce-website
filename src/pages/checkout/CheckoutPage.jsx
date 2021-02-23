@@ -8,8 +8,8 @@ const CheckoutPage = ({ cartItems }) => {
     const [total, setTotal] = useState(0);
 
     useEffect(() => {
-        const s = cartItems.reduce((accumalatedQuantity, cartItem) => accumalatedQuantity + cartItem.quantity * cartItem.price, 0)
-        setTotal(s);
+        const price = cartItems.reduce((accumalatedQuantity, cartItem) => accumalatedQuantity + cartItem.quantity * cartItem.price, 0)
+        setTotal(price);
     }, [cartItems]);
 
     return (

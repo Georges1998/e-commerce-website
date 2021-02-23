@@ -18,7 +18,7 @@ const CollectionItem = ({ item, addItem }) => {
             />
             <div className='collection-item__collection-footer'>
                 <span className='collection-item__collection-footer__name'>{name}</span>
-                <span className='collection-item__collection-footer__price'>{price}</span>
+                <span className='collection-item__collection-footer__price'>${price}</span>
             </div>
             <CustomButton onClick={() => addItem(item)} className='collection-item__customButton'>
                 Add to Cart

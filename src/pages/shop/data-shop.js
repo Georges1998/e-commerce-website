@@ -135,53 +135,53 @@ const SHOP_DATA = [
     items: [
       {
         id: 18,
-        name: "Black Jean Shearling",
+        name: "Blue Dress Diane",
         imageUrl:
           "https://dotandline.net/wp-content/uploads/2020/03/diane-nguyen-1210x642.jpg",
         price: 125,
       },
       {
         id: 19,
-        name: "Blue Jean Jacket",
+        name: "Diane writing",
         imageUrl:
           "https://variety.com/wp-content/uploads/2020/06/bojack.jpg?w=681&h=383&crop=1",
         price: 90,
       },
       {
         id: 20,
-        name: "Grey Jean Jacket",
+        name: "Diane and Bojack",
         imageUrl:
           "https://cdn.jwplayer.com/v2/media/vnRqf7o2/poster.jpg?width=640",
         price: 90,
       },
       {
         id: 21,
-        name: "Brown Shearling",
+        name: "Diane and MR",
         imageUrl: "https://images2.alphacoders.com/951/thumb-1920-951967.jpg",
         price: 165,
       },
       {
         id: 22,
-        name: "Tan Trench",
+        name: "Diane's Family",
         imageUrl: "https://i.ytimg.com/vi/7qIcrr27ZJg/maxresdefault.jpg",
         price: 185,
       },
       {
         id: 222,
-        name: "Tan Trench",
+        name: "Surprised Diane",
         imageUrl:
           "https://64.media.tumblr.com/327f3e4f61a4754fdda15d1c3b235932/tumblr_p12e1pyOMB1ww403yo1_1280.png",
         price: 185,
       },
       {
         id: 242,
-        name: "Tan Trench",
+        name: "Diane and Bojack after Emmy's award",
         imageUrl: "https://pbs.twimg.com/media/DthjYTLW4AAqoOc.jpg",
         price: 185,
       },
       {
         id: 245,
-        name: "Tan Trench",
+        name: "Surprised Diane",
         imageUrl:
           "https://64.media.tumblr.com/327f3e4f61a4754fdda15d1c3b235932/tumblr_p12e1pyOMB1ww403yo1_1280.png",
         price: 185,
