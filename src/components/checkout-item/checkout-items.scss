@@ -5,6 +5,7 @@
   border-bottom: 1px solid darkgrey;
   padding: 15px 0;
   font-size: 20px;
+  justify-content: space-between;
   align-items: center;
 
   &__image {
@@ -19,11 +20,17 @@
   &__name,
   &__quantity,
   &__price {
-    width: 23%;
+    width: 14%;
+    text-align: center;
   }
 
-  &__quantity {
-    padding-left: 20px;
+  &__price {
+    position:relative;
+    right: 35px;
+  }
+  &__name {
+    position:relative;
+    left: 35px;
   }
 
   &__remove-button {

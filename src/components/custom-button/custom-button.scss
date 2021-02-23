@@ -1,20 +1,27 @@
+@import "../../assets/styles/colors.scss";
+
 .custom-button {
   display: inline-block;
   padding: 0.35em 1.2em;
   min-height: 40px;
   margin: 0 0.3em;
-  border: radius 0.12em;
+  opacity: 0.9;
+  background-color: $blue-base-color;
+  border-radius: 0.25em;
   box-sizing: border-box;
   text-decoration: none;
   text-align: center;
   color: rgb(0, 0, 0);
   font-weight: 300;
   transition: all 0.2s;
+
   outline: none;
+  border: 0;
 
   &:hover {
-    color: rgb(0, 0, 0);
+    color: $base-color;
     cursor: pointer;
+    opacity: 1;
   }
 
   &:focus {
