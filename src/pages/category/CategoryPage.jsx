@@ -15,7 +15,7 @@ const CategoryPage = ({ match }) => {
 
     return (
         <div className='category-page'>
-            <h1 className='category-page__title'>{product.title.toUpperCase()}</h1>
+            <h1 className={`category-page__title ${product.routeName}`}>{product.title.toUpperCase()}</h1>
             <div className='category-page__sub-title'>
                 <p>{product.description}</p>
             </div>

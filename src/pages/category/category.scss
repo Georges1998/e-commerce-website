@@ -1,3 +1,5 @@
+@import "../../assets/styles/colors.scss";
+
 .category-page {
   display: flex;
   width: 100%;
@@ -6,10 +8,25 @@
   width: 100%;
 
   &__title {
-    color: #df752b;
     font-size: 28px;
     margin-bottom: 25px;
     text-align: center;
+  }
+
+  .princess {
+    color: $pc;
+  }
+  .mr {
+    color: $mr;
+  }
+  .Todd {
+    color: $todd;
+  }
+  .bojack{
+    color: $bojack;
+  }
+  .Diane{
+    color: $diane;
   }
 
   &__sub-title {
