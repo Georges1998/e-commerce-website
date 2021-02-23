@@ -4,10 +4,18 @@
   flex-direction: column;
   height: 350px;
   align-items: center;
+  .collection-item__customButton {
+    height: 60px;
+    border-radius: 160px;
+    border: 0;
+    outline: none;
+  }
   &:hover {
     .collection-item__customButton {
       cursor: pointer;
       opacity: 0.8;
+      background-color: #6290ff;
+      color: #fffff5;
     }
   }
 

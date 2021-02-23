@@ -1,6 +1,6 @@
 import "./App.scss";
 
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 
 import {
   BrowserRouter as Router,
@@ -22,7 +22,7 @@ import { setCurrentUser } from "./redux/user/user-actions";
 import { connect } from "react-redux";
 
 function App({ setCurrentUser, currentUser }) {
-  useEffect(async () => {
+  useEffect(() => {
     const authSubscription = auth.onAuthStateChanged(async (user) => {
       if (user) {
         const userRef = await createUserProfileDoc(user);
@@ -33,7 +33,7 @@ function App({ setCurrentUser, currentUser }) {
       setCurrentUser(user);
     });
     return authSubscription;
-  }, [auth]);
+  }, [setCurrentUser]);
 
   return (
     <div>

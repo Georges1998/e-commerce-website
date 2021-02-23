@@ -1,35 +1,41 @@
 const DIRECTORY_DATA = [
   {
-    title: "hats",
-    imageUrl: "https://i.ibb.co/cvpntL1/hats.png",
+    title: "princess caroline",
+    imageUrl:
+      "https://epiloguers.com/wp-content/uploads/2020/02/Princess-Carolyn-1024x1024.jpg",
     id: 1,
-    linkUrl: "hats",
+    linkUrl: "princess",
+    size: "large",
   },
   {
-    title: "jackets",
-    imageUrl: "https://i.ibb.co/px2tCc3/jackets.png",
+    title: "Todd",
+    imageUrl: "https://cdn1.jigidi.com/thumbs/FAVSPHS7/l",
     id: 2,
-    linkUrl: "jackets",
+    linkUrl: "Todd",
+    size: "large",
   },
   {
-    title: "sneakers",
-    imageUrl: "https://i.ibb.co/0jqHpnp/sneakers.png",
+    title: "Diane",
+    imageUrl:
+      "https://dazedimg-dazedgroup.netdna-ssl.com/1200/181-0-1344-896/azure/dazed-prod/1240/9/1249781.jpg",
     id: 3,
-    linkUrl: "sneakers",
+    size: "large",
+    linkUrl: "Diane",
   },
   {
-    title: "womens",
-    imageUrl: "https://i.ibb.co/GCCdy8t/womens.png",
+    title: "Bojack horseman",
+    imageUrl:
+      "https://nofilmschool.com/sites/default/files/styles/facebook/public/bojack_horseman.jpg?itok=cOoRwYeh",
     size: "large",
     id: 4,
-    linkUrl: "womens",
+    linkUrl: "bojack",
   },
   {
-    title: "mens",
-    imageUrl: "https://i.ibb.co/R70vBrQ/men.png",
+    title: "Mr. Peanutbutter",
+    imageUrl: "https://i.ytimg.com/vi/RhoGBu97l30/maxresdefault.jpg",
     size: "large",
     id: 5,
-    linkUrl: "mens",
+    linkUrl: "mr",
   },
 ];
 export default DIRECTORY_DATA;

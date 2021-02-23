@@ -5,11 +5,15 @@
   margin-bottom: 15px;
 
   img {
-    width: 30%;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
   }
 
   &__price {
     color: rgb(240, 152, 152);
+    position: relative;
+    bottom: 20px;
   }
   &__name {
     font-size: 16px;

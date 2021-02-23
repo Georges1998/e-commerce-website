@@ -1,5 +1,5 @@
-$sub-color: rgb(73, 161, 177);
-$main-color: rgb(175, 239, 250);
+$sub-color: #DF752B;
+$main-color: #FFE19A;
 
 @mixin shrinkLabel {
   top: -14px;
@@ -21,7 +21,7 @@ $main-color: rgb(175, 239, 250);
     width: 100%;
     border: none;
     border-radius: 0;
-    border-bottom: 1px solid $sub-color;
+    border-bottom: 1px solid black;
     margin: 25px 0;
 
     &:focus {

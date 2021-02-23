@@ -3,10 +3,24 @@
   width: 100%;
   flex-direction: column;
   margin-bottom: 30px;
+  width: 100%;
 
   &__title {
+    color: #df752b;
     font-size: 28px;
     margin-bottom: 25px;
+    text-align: center;
+  }
+
+  &__sub-title {
+    margin-top: 0;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 100%;
+    p {
+      width: 80%;
+      margin: 0 auto;
+    }
   }
 
   &__preview {
